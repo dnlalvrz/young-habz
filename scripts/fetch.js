@@ -37,7 +37,7 @@ export const parsedStats = async () => {
           goals: yearlyStats.reduce((accum,item) => accum + item.stat.goals, 0),
           assists: yearlyStats.reduce((accum,item) => accum + item.stat.assists, 0),
           plusMinus: yearlyStats.reduce((accum,item) => accum + item.stat.plusMinus, 0),
-          iceTime: yearlyStats.reduce((accum,item) => accum + item.stat.timeOnIce, 0),
+          iceTime: yearlyStats.reduce((accum,item) => accum + parseInt(item.stat.timeOnIce), 0),
         }
       })
     })

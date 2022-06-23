@@ -6,6 +6,9 @@ body {
   }
 
   .header {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
       padding: 20px;
       color: white;
       background-color: #69b6cb;
@@ -20,6 +23,8 @@ body {
   
   img {
     width: 100%;
+    min-height: 310px;
+    max-height: 350px;
     border-radius: 10px;
   }
 
