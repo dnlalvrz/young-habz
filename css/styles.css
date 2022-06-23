@@ -22,9 +22,8 @@ body {
   }
   
   img {
-    width: 100%;
-    min-height: 310px;
-    max-height: 350px;
+    min-height: 300px;
+    width: 648px;
     border-radius: 10px;
   }
 

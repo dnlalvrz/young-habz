@@ -24,7 +24,7 @@ const showInfo = async () => {
         div1.classList.add('row', 'justify-content-center', 'no-gutters', 'mb-5', 'mb-lg-0', 'box');
         container.appendChild(div1); 
         const div2 = document.createElement("div");
-        div2.classList.add("col-lg-6", "my-auto");
+        div2.classList.add("col-lg-6");
         div1.appendChild(div2);
         const image = document.createElement("img");
         image.className = "img-fluid";
